@@ -13,11 +13,8 @@
 	CGFloat  frameX = CGRectGetWidth([self frame]);
 	CGFloat  frameY = CGRectGetHeight([self frame]);
 	
-	leftFramePosition = NSMakeRect(0.0f, 0.0f, frameX / 4.0f, 
-                                 frameY / 4.0f);
-	rightFramePosition = NSMakeRect(7.0f * frameX / 8.0f, 
-                                  7.0f *frameY / 16.0f, 
-                                  frameX / 8.0f, frameY/ 8.0f); 
+	leftFramePosition = CGRectMake(0.0f, 0.0f, frameX / 4.0f, frameY / 4.0f);
+	rightFramePosition = CGRectMake(7.0f * frameX / 8.0f, 7.0f *frameY / 16.0f, frameX / 8.0f, frameY/ 8.0f);
 	
 	mover = [[UIImageView alloc] initWithFrame:leftFramePosition];
 	isRight = NO;
@@ -47,18 +44,21 @@
   return YES;
 }
 
-- (void)keyDown:(UIEvent *)event { // <label id="code.BaseView.keyDown"/>
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	[self move];
 }
+
 //END:code.BaseView.keys
 
 //START:code.BaseView.move
 - (void)move { // <label id="code.BaseView.move"/>
+	[UIView beginAnimations:@"moverAnimation" context:NULL];
   if(isRight) {
-    [[mover animator] setFrame:leftFramePosition];
+		[mover setFrame:leftFramePosition];
   } else {
-    [[mover animator] setFrame:rightFramePosition];
+		[mover setFrame:rightFramePosition];
   }
+	[UIView commitAnimations];
 	isRight = !isRight;
 }
 //END:code.BaseView.move

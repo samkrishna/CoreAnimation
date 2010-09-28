@@ -59,25 +59,32 @@
 - (void)addBounceAnimationTo:(UIView *)view { // <label id="code.KeyFrameView.addBounceAnimationTo:"/>
   CGRect frame = [view frame];
   CAKeyframeAnimation *originAnimation = [self originAnimation:frame];
+  [originAnimation setKeyPath:@"frameOrigin"];
+  
   CAKeyframeAnimation *sizeAnimation = [self sizeAnimation:frame];
-  [view setAnimations:[NSDictionary dictionaryWithObjectsAndKeys:originAnimation, @"frameOrigin", sizeAnimation, @"frameSize", nil]];
+  [sizeAnimation setKeyPath:@"frameSize"];
+
+	
+  CAAnimationGroup *animationGroup = [[CAAnimationGroup alloc] init];
+  [animationGroup setAnimations:[NSArray arrayWithObjects:originAnimation, sizeAnimation, nil]];
+	
+  [[view layer] addAnimation:animationGroup	forKey:nil];
 }
 
 - (BOOL)acceptsFirstResponder { // <label id="code.KeyFrameView.acceptsFirstResponder"/>
   return YES;
 }
 
-- (void)keyDown:(UIEvent *)event { // <label id="code.KeyFrameView.keyDown"/>
-  if([[event characters] characterAtIndex:0] == 'b' || [[event characters] characterAtIndex:0] == 'B') {
-    [self bounce];
-  } else {
-    [super keyDown:event];
-  }
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+  [self bounce];
 }
 
 - (void)bounce { // <label id="code.KeyFrameView.bounce"/>
   CGRect rect = [mover frame];
-  [[mover animator] setFrame:rect];
+	
+  [UIView beginAnimations:@"bouncerAnimation" context:NULL];
+	[mover setFrame:rect];
+	[UIView	commitAnimations];
 }
 
 @end

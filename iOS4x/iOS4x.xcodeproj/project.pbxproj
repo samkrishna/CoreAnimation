@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F1B7CF312525703007187EB /* KeyFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7CF012525703007187EB /* KeyFrameView.m */; };
-		6F1B7CF412525703007187EB /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7CF212525703007187EB /* BaseView.m */; };
-		6F1B7CF9125257B2007187EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B7CF8125257B2007187EB /* UIKit.framework */; };
-		6F1B7D59125257D0007187EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B7D58125257D0007187EB /* QuartzCore.framework */; };
-		6F1B7D5B125257E4007187EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7D5A125257E4007187EB /* main.m */; };
-		6F1B7D5D1252582D007187EB /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B7D5C1252582D007187EB /* photo.jpg */; };
+		A46122001252B7A400A4A86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46121FF1252B7A400A4A86B /* Foundation.framework */; };
+		A46122021252B7A400A4A86B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46122011252B7A400A4A86B /* QuartzCore.framework */; };
+		A46122041252B7A400A4A86B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46122031252B7A400A4A86B /* UIKit.framework */; };
+		A461220B1252B7AF00A4A86B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7D5A125257E4007187EB /* main.m */; };
+		A461220C1252B7BE00A4A86B /* KeyFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7CF012525703007187EB /* KeyFrameView.m */; };
+		A461220D1252B7BE00A4A86B /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B7CF212525703007187EB /* BaseView.m */; };
+		A461220E1252B7C800A4A86B /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B7D5C1252582D007187EB /* photo.jpg */; };
+		A4F843ED1252B82B00E57803 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F843EC1252B82B00E57803 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,21 +22,26 @@
 		6F1B7CF012525703007187EB /* KeyFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameView.m; sourceTree = "<group>"; };
 		6F1B7CF112525703007187EB /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		6F1B7CF212525703007187EB /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
-		6F1B7CF8125257B2007187EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6F1B7D58125257D0007187EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6F1B7D5A125257E4007187EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F1B7D5C1252582D007187EB /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
-		6F306E79125255F9005DE142 /* FirstAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F306E7C125255F9005DE142 /* FirstAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FirstAnimation-Info.plist"; path = "../../FirstAnimation-Info.plist"; sourceTree = "<group>"; };
+		A46121101252B51800A4A86B /* FirstAnimation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstAnimation_Prefix.pch; path = ../../FirstAnimation_Prefix.pch; sourceTree = "<group>"; };
+		A46121F91252B76000A4A86B /* FirstAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46121FB1252B76000A4A86B /* FirstAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FirstAnimation-Info.plist"; path = "../../FirstAnimation-Info.plist"; sourceTree = "<group>"; };
+		A46121FF1252B7A400A4A86B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A46122011252B7A400A4A86B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A46122031252B7A400A4A86B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4F843EC1252B82B00E57803 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F306E77125255F9005DE142 /* Frameworks */ = {
+		A46121F71252B76000A4A86B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1B7CF9125257B2007187EB /* UIKit.framework in Frameworks */,
-				6F1B7D59125257D0007187EB /* QuartzCore.framework in Frameworks */,
+				A46122001252B7A400A4A86B /* Foundation.framework in Frameworks */,
+				A46122021252B7A400A4A86B /* QuartzCore.framework in Frameworks */,
+				A46122041252B7A400A4A86B /* UIKit.framework in Frameworks */,
+				A4F843ED1252B82B00E57803 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +62,9 @@
 		6F1B7CDC125256B1007187EB /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A46121101252B51800A4A86B /* FirstAnimation_Prefix.pch */,
 				6F1B7D5A125257E4007187EB /* main.m */,
-				6F306E7C125255F9005DE142 /* FirstAnimation-Info.plist */,
+				A46121FB1252B76000A4A86B /* FirstAnimation-Info.plist */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -72,6 +80,10 @@
 		6F1B7CDE125256BC007187EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A46121FF1252B7A400A4A86B /* Foundation.framework */,
+				A46122011252B7A400A4A86B /* QuartzCore.framework */,
+				A46122031252B7A400A4A86B /* UIKit.framework */,
+				A4F843EC1252B82B00E57803 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +94,6 @@
 				6F306E70125255CB005DE142 /* Chapter2 */,
 				6F306E7A125255F9005DE142 /* Products */,
 				6F1B7CDE125256BC007187EB /* Frameworks */,
-				6F1B7CF8125257B2007187EB /* UIKit.framework */,
-				6F1B7D58125257D0007187EB /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +118,7 @@
 		6F306E7A125255F9005DE142 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F306E79125255F9005DE142 /* FirstAnimation.app */,
+				A46121F91252B76000A4A86B /* FirstAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,13 +126,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F306E78125255F9005DE142 /* FirstAnimation */ = {
+		A46121F81252B76000A4A86B /* FirstAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F306E7F125255F9005DE142 /* Build configuration list for PBXNativeTarget "FirstAnimation" */;
+			buildConfigurationList = A46121FE1252B76100A4A86B /* Build configuration list for PBXNativeTarget "FirstAnimation" */;
 			buildPhases = (
-				6F306E75125255F9005DE142 /* Resources */,
-				6F306E76125255F9005DE142 /* Sources */,
-				6F306E77125255F9005DE142 /* Frameworks */,
+				A46121F51252B76000A4A86B /* Resources */,
+				A46121F61252B76000A4A86B /* Sources */,
+				A46121F71252B76000A4A86B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,7 +140,7 @@
 			);
 			name = FirstAnimation;
 			productName = FirstAnimation;
-			productReference = 6F306E79125255F9005DE142 /* FirstAnimation.app */;
+			productReference = A46121F91252B76000A4A86B /* FirstAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,30 +163,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F306E78125255F9005DE142 /* FirstAnimation */,
+				A46121F81252B76000A4A86B /* FirstAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F306E75125255F9005DE142 /* Resources */ = {
+		A46121F51252B76000A4A86B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1B7D5D1252582D007187EB /* photo.jpg in Resources */,
+				A461220E1252B7C800A4A86B /* photo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F306E76125255F9005DE142 /* Sources */ = {
+		A46121F61252B76000A4A86B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1B7CF312525703007187EB /* KeyFrameView.m in Sources */,
-				6F1B7CF412525703007187EB /* BaseView.m in Sources */,
-				6F1B7D5B125257E4007187EB /* main.m in Sources */,
+				A461220C1252B7BE00A4A86B /* KeyFrameView.m in Sources */,
+				A461220D1252B7BE00A4A86B /* BaseView.m in Sources */,
+				A461220B1252B7AF00A4A86B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +197,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -197,7 +208,7 @@
 			};
 			name = Release;
 		};
-		6F306E7D125255F9005DE142 /* Debug */ = {
+		A46121FC1252B76000A4A86B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +217,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREFIX_HEADER = FirstAnimation_Prefix.pch;
 				INFOPLIST_FILE = "FirstAnimation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -217,12 +228,11 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = FirstAnimation;
-				SDKROOT = iphoneos4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
-		6F306E7E125255F9005DE142 /* Release */ = {
+		A46121FD1252B76000A4A86B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,11 +269,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F306E7F125255F9005DE142 /* Build configuration list for PBXNativeTarget "FirstAnimation" */ = {
+		A46121FE1252B76100A4A86B /* Build configuration list for PBXNativeTarget "FirstAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F306E7D125255F9005DE142 /* Debug */,
-				6F306E7E125255F9005DE142 /* Release */,
+				A46121FC1252B76000A4A86B /* Debug */,
+				A46121FD1252B76000A4A86B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
