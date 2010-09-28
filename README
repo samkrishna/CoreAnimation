@@ -1,0 +1,19 @@
+This is the repo for an updated version of the exercises from Bill Dudney's CoreAnimation book and tutorials.
+
+Our intention is to update the codebase for Snow Leopard and iOS 4.x (both iPhone/iPod Touch and iPad form factors).
+
+We also want to add automated user testing as per the iOS 4.x automated UX testing framework (UIAutomation). There reference page is here:
+
+http://developer.apple.com/library/ios/#documentation/DeveloperTools/Reference/UIAutomationRef/_index.html
+
+Articles detailing how to use UIAutomation can be found here:
+
+http://answers.oreilly.com/topic/1646-how-to-use-uiautomation-to-create-iphone-ui-tests/
+
+and here:
+
+http://www.codeproject.com/KB/iPhone/UI_Automation_Testing.aspx
+
+Good luck!
+
+samkrishna + jnjosh
