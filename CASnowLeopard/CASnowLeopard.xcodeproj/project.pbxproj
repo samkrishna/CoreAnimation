@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F306A8F12523E58005DE142 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F306A8E12523E58005DE142 /* Cocoa.framework */; };
+		6F306BD212523E8F005DE142 /* KeyFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306A8012523D46005DE142 /* KeyFrameView.m */; };
+		6F306BD312523E8F005DE142 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306A7D12523D3A005DE142 /* BaseView.m */; };
+		6F306BD812523EEE005DE142 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F306BD712523EEE005DE142 /* photo.jpg */; };
+		6F306BDC12523FAF005DE142 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F306BDB12523FAF005DE142 /* MainMenu.xib */; };
+		6F306C4812524251005DE142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306C4712524251005DE142 /* main.m */; };
+		6F306D031252462B005DE142 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F306D021252462B005DE142 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F306A7C12523D3A005DE142 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		6F306A7D12523D3A005DE142 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		6F306A7F12523D46005DE142 /* KeyFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameView.h; sourceTree = "<group>"; };
+		6F306A8012523D46005DE142 /* KeyFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameView.m; sourceTree = "<group>"; };
+		6F306A8612523D71005DE142 /* FirstAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F306A8812523D71005DE142 /* FirstAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FirstAnimation-Info.plist"; path = "../../FirstAnimation-Info.plist"; sourceTree = "<group>"; };
+		6F306A8C12523E58005DE142 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		6F306A8E12523E58005DE142 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		6F306A9012523E58005DE142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		6F306BD712523EEE005DE142 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		6F306BDB12523FAF005DE142 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6F306C4712524251005DE142 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F306C9C12524344005DE142 /* FirstAnimation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstAnimation_Prefix.pch; sourceTree = "<group>"; };
+		6F306D021252462B005DE142 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F306A8412523D71005DE142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F306A8F12523E58005DE142 /* Cocoa.framework in Frameworks */,
+				6F306D031252462B005DE142 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F306A6212523585005DE142 = {
+			isa = PBXGroup;
+			children = (
+				6F306D021252462B005DE142 /* QuartzCore.framework */,
+				6F306A6E12523C26005DE142 /* Chapter2 */,
+				6F306A7612523C45005DE142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F306A6E12523C26005DE142 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				6F306A6F12523C2E005DE142 /* FirstAnimation */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		6F306A6F12523C2E005DE142 /* FirstAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F306CAD1252457A005DE142 /* Classes */,
+				6F306C4612524245005DE142 /* Other Sources */,
+				6F306BD412523EE5005DE142 /* Resources */,
+				6F306A9812523E62005DE142 /* Frameworks */,
+			);
+			path = FirstAnimation;
+			sourceTree = "<group>";
+		};
+		6F306A7612523C45005DE142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F306A8612523D71005DE142 /* FirstAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F306A9812523E62005DE142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F306A8C12523E58005DE142 /* AppKit.framework */,
+				6F306A8E12523E58005DE142 /* Cocoa.framework */,
+				6F306A9012523E58005DE142 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F306BD412523EE5005DE142 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F306A8812523D71005DE142 /* FirstAnimation-Info.plist */,
+				6F306BD712523EEE005DE142 /* photo.jpg */,
+				6F306BDB12523FAF005DE142 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F306C4612524245005DE142 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6F306C9C12524344005DE142 /* FirstAnimation_Prefix.pch */,
+				6F306C4712524251005DE142 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		6F306CAD1252457A005DE142 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F306A7F12523D46005DE142 /* KeyFrameView.h */,
+				6F306A8012523D46005DE142 /* KeyFrameView.m */,
+				6F306A7C12523D3A005DE142 /* BaseView.h */,
+				6F306A7D12523D3A005DE142 /* BaseView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F306A8512523D71005DE142 /* FirstAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F306A8B12523D71005DE142 /* Build configuration list for PBXNativeTarget "FirstAnimation" */;
+			buildPhases = (
+				6F306A8212523D71005DE142 /* Resources */,
+				6F306A8312523D71005DE142 /* Sources */,
+				6F306A8412523D71005DE142 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstAnimation;
+			productName = FirstAnimation;
+			productReference = 6F306A8612523D71005DE142 /* FirstAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F306A6412523585005DE142 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6F306A6712523585005DE142 /* Build configuration list for PBXProject "CASnowLeopard" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 6F306A6212523585005DE142;
+			productRefGroup = 6F306A7612523C45005DE142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F306A8512523D71005DE142 /* FirstAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F306A8212523D71005DE142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F306BD812523EEE005DE142 /* photo.jpg in Resources */,
+				6F306BDC12523FAF005DE142 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F306A8312523D71005DE142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F306BD212523E8F005DE142 /* KeyFrameView.m in Sources */,
+				6F306BD312523E8F005DE142 /* BaseView.m in Sources */,
+				6F306C4812524251005DE142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F306A6512523585005DE142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6F306A6612523585005DE142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		6F306A8912523D71005DE142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Chapter2/FirstAnimation/FirstAnimation_Prefix.pch";
+				INFOPLIST_FILE = "FirstAnimation-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FirstAnimation;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		6F306A8A12523D71005DE142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "FirstAnimation-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FirstAnimation;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F306A6712523585005DE142 /* Build configuration list for PBXProject "CASnowLeopard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F306A6512523585005DE142 /* Debug */,
+				6F306A6612523585005DE142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F306A8B12523D71005DE142 /* Build configuration list for PBXNativeTarget "FirstAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F306A8912523D71005DE142 /* Debug */,
+				6F306A8A12523D71005DE142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F306A6412523585005DE142 /* Project object */;
+}
