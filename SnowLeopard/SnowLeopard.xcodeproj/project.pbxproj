@@ -29,7 +29,7 @@
 		6F306BD712523EEE005DE142 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		6F306BDB12523FAF005DE142 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		6F306C4712524251005DE142 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F306C9C12524344005DE142 /* FirstAnimation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstAnimation_Prefix.pch; sourceTree = "<group>"; };
+		6F306C9C12524344005DE142 /* Universal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universal_Prefix.pch; sourceTree = "<group>"; };
 		6F306D021252462B005DE142 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -50,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				6F306D021252462B005DE142 /* QuartzCore.framework */,
+				6F306C9C12524344005DE142 /* Universal_Prefix.pch */,
 				6F306A6E12523C26005DE142 /* Chapter2 */,
 				6F306A7612523C45005DE142 /* Products */,
 			);
@@ -105,7 +106,6 @@
 		6F306C4612524245005DE142 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6F306C9C12524344005DE142 /* FirstAnimation_Prefix.pch */,
 				6F306C4712524251005DE142 /* main.m */,
 			);
 			name = "Other Sources";
@@ -147,7 +147,7 @@
 /* Begin PBXProject section */
 		6F306A6412523585005DE142 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 6F306A6712523585005DE142 /* Build configuration list for PBXProject "CASnowLeopard" */;
+			buildConfigurationList = 6F306A6712523585005DE142 /* Build configuration list for PBXProject "SnowLeopard" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,7 +217,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Chapter2/FirstAnimation/FirstAnimation_Prefix.pch";
+				GCC_PREFIX_HEADER = Universal_Prefix.pch;
 				INFOPLIST_FILE = "FirstAnimation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -259,7 +259,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F306A6712523585005DE142 /* Build configuration list for PBXProject "CASnowLeopard" */ = {
+		6F306A6712523585005DE142 /* Build configuration list for PBXProject "SnowLeopard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F306A6512523585005DE142 /* Debug */,
